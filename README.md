@@ -7,8 +7,8 @@
 
 ### Basic
 - [X] codeStructure [바로가기](https://www.naver.com)
-- [ ] Vaeiable [바로가기](https://www.naver.com)
-- [ ] Strict Mode [바로가기](https://www.naver.com)
-- [ ] Global This [바로가기](https://www.naver.com)
-- [ ] Date Types [바로가기](https://www.naver.com)
+- [x] Vaeiable [바로가기](https://www.naver.com)
+- [x] Strict Mode [바로가기](https://www.naver.com)
+- [x] Global This [바로가기](https://www.naver.com)
+- [x] Date Types [바로가기](https://www.naver.com)
 - [ ] Type Conversion [바로가기](https://www.naver.com)
