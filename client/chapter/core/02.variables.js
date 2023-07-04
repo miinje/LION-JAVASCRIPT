@@ -72,7 +72,7 @@ const productInFomation = '';
 // fulfilled, resolved 응답 성공
 // rejected 실패
 
-const PADING = 'api/padding';
+const PADNING = 'api/padding';
 const LOADING = 'api/loading';
-const PADING = 'api/padding';
-const PADING = 'api/padding';
+// const LOADING = 'api/loading';
+// const LOADING = 'api/loading';
