@@ -15,4 +15,4 @@
 
 ## operations
 -[ ] oprations (기본 연산자) [바로가기](https://github.com/miinje/lion-javascript.git)
--[ ] oprations (기본 연산자) [바로가기](https://github.com/miinje/lion-javascript.git)
+-[ ] oprations (비교 연산자) [바로가기](https://github.com/miinje/lion-javascript.git)
