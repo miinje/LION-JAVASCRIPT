@@ -18,14 +18,14 @@ console.log( YEAR + '' ); //암시적 형변환, 빈문자나 띄어쓰기 삽�
 // undefined, null
 let days = null;
 
-console.log( typeof String(null) );
-console.log( null + '' );
+console.log( typeof String(days) );
+console.log( days + '' );
 
 
 let undef = undefined;
 
-console.log( typeof String(undefined) );
-console.log( undefined + '' );
+console.log( typeof String(undef) );
+console.log( undef + '' );
 
 
 // boolean
