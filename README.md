@@ -35,3 +35,17 @@
 - [x] function (함수선언문) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/10-1.function.js)
 - [x] function (함수표현식) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/10-2.function.js)
 - [x] function (화살표함수) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/10-3.function.js)
+- [ ] function (재귀와 스택) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/10-4.function.js)
+
+## Objects
+- [x] Objects (객체) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-1.Objects.js)
+- [x] Objects (참조에 의한 객체 복사) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-2.Objects.js)
+- [ ] Objects (가비지 컬렉션) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-3.Objects.js)
+- [ ] Objects (메서드와 this) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-4.Objects.js)
+
+## Prototype
+- [ ] Prototype (프로토타입 상속) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-1.Prototype.js)
+- [ ] Prototype (함수의 Prototype 프로퍼티) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-2.Prototype.js)
+
+## class
+- [ ] class (클래스와 기본 문법) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/13-1.class.js)
