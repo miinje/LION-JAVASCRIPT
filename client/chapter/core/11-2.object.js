@@ -120,7 +120,9 @@ function cloneDeep(object) {
 
 let copyedContainerStyles = cloneDeep(containerStyles);
 
-//깊은 복사: 변경해도 원본 유지, 얕은 복사: 변경 시 원본 변경
+//참조 복사 / 얕은 복사 / 깊은 복사
+//얕은 복사: 겉면만 떼옴 - 깊은 내용까진 복사할 수 없음(객체 안의 객체 등은 공유함)
+//깊은 복사: 객체의 모든 값을 가지고 옴(객체 안에 들어간 객체까지도)
 
 
 
