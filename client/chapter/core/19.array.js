@@ -53,12 +53,20 @@ for(let i = 0; i < friends.length; i++){
 
 
 for(let value of friends){  //for of문은 Symbol.iterator 메서드가 정의돼 있다면 사용 가능
-  console.log(value);
+  // console.log(value);
 }
 
 
 // 배열 복사
-let copiedArray;
+// let copiedArray = [...friends]; 
+//스프레드 신탁스(얕은 복사): 아큐먼츠의 역할을 수행할 수도 있음(함수 메서드에 들어갔을 때)
+
+// let copiedArray = friends.slice();
+let copiedArray = friends.toSorted();
+
+
+console.log(copiedArray);
+
 
 
 // 다차원 배열
