@@ -40,12 +40,31 @@
 ## Objects
 - [x] Objects (객체) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-1.Objects.js)
 - [x] Objects (참조에 의한 객체 복사) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-2.Objects.js)
-- [ ] Objects (가비지 컬렉션) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-3.Objects.js)
-- [ ] Objects (메서드와 this) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-4.Objects.js)
+- [x] Objects (가비지 컬렉션) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-3.Objects.js)
+- [x] Objects (메서드와 this) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/11-4.Objects.js)
 
 ## Prototype
-- [ ] Prototype (프로토타입 상속) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-1.Prototype.js)
-- [ ] Prototype (함수의 Prototype 프로퍼티) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-2.Prototype.js)
+- [x] Prototype (프로토타입 상속) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-1.Prototype.js)
+- [x] Prototype (함수의 Prototype 프로퍼티) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/12-2.Prototype.js)
 
 ## class
-- [ ] class (클래스와 기본 문법) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/13-1.class.js)
+- [x] class (클래스와 기본 문법) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/13-1.class.js)
+
+## Closure
+- [x] Closure (클로저) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/14-1.closure.js)
+
+
+## OptionalChainning & wrapper
+- [x] OptionalChainning(옵셔널체이닝) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/15.OptionalChainning.js)
+- [x] Primitive Methods(Object Wrapper) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/16.wrapper.js)
+
+## Number
+- [x] Number(number Type) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/17.number.js)
+
+## String
+- [x] String(string Type) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/18.string.js)
+
+## Array
+- [x] Array(array Type) [바로가기](https://github.com/miinje/lion-javascript/blob/01.core/client/chapter/core/19.array.js)
+
+## 예외처리
