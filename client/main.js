@@ -1,3 +1,4 @@
-console.log('hello js!');
 
-// const a = 10;
+import { getNode } from './lib/index.js';
+
+getNode
