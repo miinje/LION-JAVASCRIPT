@@ -2,11 +2,13 @@
 import { 
   attr,
   clearContents,
-  diceAnimation, 
+  diceAnimation,  
   endScroll, 
   getNode, 
   getNodes,
-  insertLast
+  insertLast,
+  isDisableState,
+  memo
 } from "./lib/index.js";
 
 
@@ -42,10 +44,6 @@ import {
 
 // 진짜 진짜 쉬운 과제
 
-// disableElement(node)
-// enableElement(node)
-// isDisableState(node)  => true / false
-
 // visibleElement(node)
 // invisibleElement(node)
 // isVisibleState(node) => true / false
@@ -57,7 +55,10 @@ import {
 
 const [startButton,recordButton,resetButton] = getNodes('.buttonGroup > button');
 const recordListWrapper = getNode('.recordListWrapper');
-const tbody = getNode('.recordList tbody');
+// const tbody = getNode('.recordList tbody');
+memo('@tbody',()=>getNode('.recordList tbody')) // setter
+
+ // getter
 
 
 let count = 0;  // 회차
@@ -81,9 +82,9 @@ function createItem(value) {
 function renderRecordItem(){
 
   // 큐브의 data-dice 값 가져오기
-  const diceValue = +attr('#cube','data-dice');
+  const diceValue = +attr(memo('cube'),'data-dice');
 
-  insertLast(tbody,createItem(diceValue));
+  insertLast(memo('@tbody'),createItem(diceValue));
   
   endScroll(recordListWrapper);
 }
@@ -98,15 +99,29 @@ const handleRollingDice = (()=>{
   return ()=>{
 
     if(!isClicked) { // dice play
-      stopAnimation = setInterval(diceAnimation, 100); // 여기서 담음
-      recordButton.disabled = true;
-      resetButton.disabled = true;
+      stopAnimation = setInterval(diceAnimation, 50); // 여기서 담음
+
+      isDisableState(recordButton,true);
+      isDisableState(resetButton,true);
+
+      // disableElement(recordButton);
+      // disableElement(resetButton);
+
+      // recordButton.disabled = true;
+      // resetButton.disabled = true;
 
       
     }else{ // dice stop
       clearInterval(stopAnimation); // if절에서 담은 값을 사용
-      recordButton.disabled = false;
-      resetButton.disabled = false;
+
+      isDisableState(recordButton,false);
+      isDisableState(resetButton,false);
+
+      // enableElement(recordButton);
+      // enableElement(resetButton);
+
+      // recordButton.disabled = false;
+      // resetButton.disabled = false;
     }
 
     isClicked = !isClicked;
@@ -125,10 +140,14 @@ function hadleRecord() {
 // 리셋
 function hadlereset() {
   recordListWrapper.hidden = true;
-  recordButton.disabled = true;
-  resetButton.disabled = true;
+  
+  isDisableState(recordButton,true);
+  isDisableState(resetButton,true);
+  
+  // recordButton.disabled = true;
+  // resetButton.disabled = true;
 
-  clearContents(tbody);
+  clearContents(memo('@tbody'));
 
   count = 0;
   total = 0;
